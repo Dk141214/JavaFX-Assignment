@@ -1,0 +1,23 @@
+/* Basic styling for the application */
+
+.border-pane {
+    -fx-background-color: #f0f0f0;
+}
+
+.HBox {
+    -fx-padding: 10;
+    -fx-spacing: 10;
+}
+
+.text-field {
+    -fx-padding: 5;
+}
+
+.button {
+    -fx-background-color: #007bff;
+    -fx-text-fill: white;
+}
+
+.list-view {
+    -fx-padding: 10;
+}

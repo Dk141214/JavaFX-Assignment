@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ListView?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.BorderPane?>
+<?import javafx.scene.layout.HBox?>
+<BorderPane xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.myuniversity.university111.MainSceneController">
+    <top>
+        <HBox spacing="10" padding="10 10 10 10">
+            <TextField fx:id="countryField" promptText="Enter country"/>
+            <Button fx:id="searchButton" text="Get University Info" onAction="#handleSearch"/>
+        </HBox>
+    </top>
+    <center>
+        <ListView fx:id="universityListView"/>
+    </center>
+</BorderPane>
